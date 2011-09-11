@@ -39,6 +39,17 @@ $().ready(function () {
 	diode.left = 240;
 	components.push(diode);
 	
+	vcc = new Component("Vcc");
+	vcc.top = 120;
+	vcc.left = 360;
+	components.push(vcc);
+	
+	ground = new Component("Ground");
+	ground.top = 240;
+	ground.left = 360;
+	components.push(ground);
+	
+	draw();
 	draw();
 });
 
