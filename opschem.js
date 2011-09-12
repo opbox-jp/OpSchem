@@ -12,49 +12,41 @@ $().ready(function () {
 	resistor = new Component("Resistor");
 	resistor.top = 120;
 	resistor.left = 120;
-	resistor.draw();
 	components.push(resistor);
 	
 	capacitor = new Component("Capacitor");
 	capacitor.top = 240;
 	capacitor.left = 120;
-	capacitor.draw();
 	components.push(capacitor);
 	
 	opamp = new Component("OpAmp");
 	opamp.top = 360;
 	opamp.left = 120;
-	opamp.draw();
 	components.push(opamp);
 	
 	npn = new Component("NPN");
 	npn.top = 120;
 	npn.left = 240;
-	npn.draw();
 	components.push(npn);
 	
 	pnp = new Component("PNP");
 	pnp.top = 240;
 	pnp.left = 240;
-	pnp.draw();
 	components.push(pnp);
 	
 	diode = new Component("Diode");
 	diode.top = 360;
 	diode.left = 240;
-	diode.draw();
 	components.push(diode);
 	
 	vcc = new Component("Vcc");
 	vcc.top = 120;
 	vcc.left = 360;
-	vcc.draw();
 	components.push(vcc);
 	
 	ground = new Component("Ground");
 	ground.top = 240;
 	ground.left = 360;
-	ground.draw();
 	components.push(ground);
 	
 	draw();
